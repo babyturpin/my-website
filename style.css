@@ -1,23 +1,54 @@
+/* ================================
+   GENERAL STYLES
+================================= */
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   text-align: center;
-  background: #111;
-  color: white;
-}
-.button {
-  display: block;        /* makes each button take full width */
-  background-color: #00bfff;
-  color: white;
-  padding: 12px 25px;
-  margin: 10px auto;     /* vertical spacing and center horizontally */
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  width: 250px;          /* optional fixed width */
-  text-align: center;
-  transition: background-color 0.3s;
+  background-color: #111; /* dark background */
+  color: white;           /* text color */
+  margin: 20px;
+  line-height: 1.6;
 }
 
-.button:hover {
-  background-color: #009acd;
+/* HEADINGS */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
 }
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* PARAGRAPHS */
+p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* LISTS */
+ul {
+  text-align: left;
+  display: inline-block; /* keeps list centered */
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* LINKS */
+a {
+  color: #00bfff; /* cyan links by default */
+  text-decoration: none;
+}
+
+/* ================================
+   BUTTON STYLES
+================================= */
+.button {
+  display: block !important;       /* vertical stacking */
+  width: 250px !important;         /* fixed width */
+  margin:
